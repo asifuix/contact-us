@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+/*start navigation area*/
+.nav{
+	padding: 25px 0;
+	text-align: center;
+	border-bottom: 1px solid #dddddd9e;
+}
+
+.nav ul{}
+
+.nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav ul li a{
+	color: #313131;
+}
+
+.nav .active {
+	color: #222831;
+	font-weight: 500;
+}
+
+.nav ul li a:hover{
+	color: #222831;
+	font-weight: 500;
+	transition: 1s ease-in-out;
+}
+/*end navigation area*/
+
+/*start newsletter area*/
+.newsletter{
+	text-align: center;
+	padding: 90px 0;
+	background-color: #f5f5f5;
+}
+
+.newsletter h1{
+	margin-bottom: 15px;
+	color: #313131;
+	font-weight: 600;
+}
+
+.newsletter p{
+	margin-bottom: 50px;
+	color: #6F6F6F;
+	line-height: 30px;
+}
+
+.input-one{
+	width: 30%;
+	padding: 15px;
+	border: 1px solid #6f6f6f52;
+	background-color: transparent;
+}
+.input-two{
+	width: 30%;
+	padding: 15px;
+	border: 1px solid #6f6f6f52;
+	background-color: transparent;
+}
+.btn{
+	width: 12%;
+    padding: 16px;
+    background-color: #313131;
+    border: none;
+}
+
+.btn a{
+	color: white;
+}
+
+.btn:hover{
+	background-color: #222831;
+}
+/*end newsletter area*/
+
+/*start lets talk area*/
+.lets-talk{
+	text-align: center;
+	background-color: #eeeeee;
+	padding: 90px 0;
+}
+
+.lets-talk h1{
+	margin-bottom: 15px;
+	color: #313131;
+	font-weight: 600;
+}
+
+.lets-talk p{
+	margin-bottom: 50px;
+	color: #6F6F6F;
+	line-height: 30px;
+}
+
+.input-section-one{
+	padding: 0 0 20px 0;
+}
+
+.input-section-one .input-one{
+	width: 36%;
+	padding: 15px;
+	border: 1px solid #6f6f6f52;
+	background-color: transparent;
+}
+.input-section-one .input-two{
+	width: 36%;
+	padding: 15px;
+	border: 1px solid #6f6f6f52;
+	background-color: transparent;
+}
+
+.input-section-two{
+	padding: 0 0 20px 0;
+}
+
+.input-section-two .input-one{
+	width: 36%;
+	padding: 15px;
+	border: 1px solid #6f6f6f52;
+	background-color: transparent;
+}
+.input-section-two .input-two{
+	width: 36%;
+	padding: 15px;
+	border: 1px solid #6f6f6f52;
+	background-color: transparent;
+}
+
+.input-section-three{
+	width: 75%;
+    height: 270px;
+    padding: 15px;
+    border: 1px solid #6f6f6f52;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+.lets-talk .btn{
+	display: block;
+    margin-left: 125px;
+    width: 15%;
+}
+/*end lets talk area*/
+
+/*start footer area*/
+.footer{
+	padding: 50px 0;
+	color: white;
+	background-color: #151515;
+}
+
+.footer-menu{
+	display: flex;
+    justify-content: space-around;
+    padding: 35px 0;
+    border-bottom: 2px solid #1c1c1c;
+}
+}
+
+.menu{
+	
+}
+
+.menu h4{
+	margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.menu a{
+	color: white;
+	line-height: 32px;
+	font-size: 15px;
+}
+
+.social-media{
+	    margin: 20px 0 20px 35px;
+}
+
+.social-media ul li{
+	display: inline-block;
+    padding-right: 5px;
+    margin: 15px 0;
+    border-right: 1px solid;
+}
+
+.social-media a{
+	color: white;
+    margin: 0 5px 0 5px;
+    font-size: 15px;
+}
+
+.social-media .last{
+	border-right: 0px !important;
+}
+
+.social-media p{
+	font-size: 15px;
+}
+
+.social-media p a{
+	color: #1f8fef;
+}
+
+.social-icon{
+	margin: 25px 0 25px 35px;
+}
+
+.social-icon ul{}
+
+.social-icon ul li{
+	display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+.social-icon ul li a{
+	color: white;
+	font-size: 18px;
+}
+
+.social-icon ul li a i{
+	background-color: transparent;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 10px 0px 10px 0px;
+    border: 2px solid #1c1c1c;
+}
+
+.social-icon ul li a i:hover{
+	background-color: #222831;
+    color: white;
+    font-size: 20px;
+}
+
+/*end footer area*/
+
