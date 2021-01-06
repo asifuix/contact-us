@@ -1,1 +1,1 @@
-https://asifuix.github.io/contact-us/
+https://asifuix.github.io/minimo/
